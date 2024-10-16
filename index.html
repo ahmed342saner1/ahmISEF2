@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+    <title>اسم المدرسه </title>
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <h1>
+                اسم المدرسه 
+            </h1>
+            <div class="list">
+                <details>
+                    <summary>list</summary>
+                        <p>
+                            <a href="index0.html" class="a-list">home</a>
+                        </p>
+                        <p>
+                            <a href="connect.html" class="a-list">connect</a>
+                        </p>
+                </details>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index0.html">home</a></li>
+                    <li><a href="connect.html">connect</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <div class="search">
+        <center>
+            <select class="select"  id="mySelect" class="password">
+                <optgroup label="الاعدادي">
+                    <option value="perp1">الصف الاول الاعدادي</option>
+                    <option value="perp2" >الصف الثاني الاعدادي </option>
+                    <option value="perp3">الصف الثالث الاعدادي</option>
+                </optgroup>
+            </select>
+            <br><br><br>
+        <input type="password" id="passwordInput" placeholder="Enter password" class="password">
+        <br>        
+        <button onclick="checkPassword()" class="button">Submit</button>
+        <p id="linkOutput"></p>      
+        <h2 class="h2">
+            <p id="linkOutput"></p>
+        </h2>
+        </center>
+
+    </div>
+    <script src="main.js">
+    </script>
+</body>
+
+</html>
